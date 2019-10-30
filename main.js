@@ -54,7 +54,7 @@ while(drank != "stop"){
 		if (aantal == 8 || aantal == 16) {
 			snacks = prompt("Hoeveel bitterbalschalen van " +aantal+ " stuks wilt u bestellen?");
 		}
-		//als de klant een verkeerd iets invoerd dan krijgt diegene deze error
+		//als de klant iets invuld wat niet kan, komt deze error
 		else{ 
 		alert("U kunt alleen een keuze maken tussen 8 en 16. De snacks zijn niet toegevoegd aan de bestelling.");
 		}
